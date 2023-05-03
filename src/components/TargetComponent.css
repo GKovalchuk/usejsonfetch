@@ -1,0 +1,26 @@
+.target-component img {
+	width: 200px;
+	animation: 4s infinite rotation;
+}
+
+@keyframes rotation {
+	0% {
+		rotate: 0;
+	}
+
+	25% {
+		rotate: 90deg;
+	}
+
+	50% {
+		rotate: 180deg;
+	}
+
+	75% {
+		rotate: 270deg;
+	}
+
+	100% {
+		rotate: 0;
+	}
+}
